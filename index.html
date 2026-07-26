@@ -23,7 +23,7 @@
                 <li><a href="#skills">技能</a></li>
                 <li><a href="#certificates">竞赛证书</a></li>
                 <li><a href="#projects">项目</a></li>
-                <li><a href="#demo">算法Demo</a></li>
+                
                 <li><a href="#education">教育</a></li>
             </ul>
             <a href="mailto:t3082582474@qq.com" class="nav-cta">联系我</a>
@@ -315,77 +315,19 @@
                                 <span>&lt;/&gt;</span> 查看源代码
                             </a>
                         </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 互动 Demo -->
-    <section class="section demo-section" id="demo">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-num">04</span>
-                <h2 class="section-title">算法 Demo · 连连看 BFS 寻路</h2>
-                <p class="section-sub">还原项目核心算法 · 折弯不超过两次的连通路径搜索</p>
-            </div>
-            <div class="demo-wrap">
-                <div class="demo-info">
-                    <h3>多维状态 BFS</h3>
-                    <p>状态定义：<code>(x, y, turns, entryDir)</code></p>
-                    <p>在传统坐标基础上增加 <strong>转向次数</strong> 与 <strong>入边方向</strong> 两个维度，实现毫秒级剪枝。</p>
-                    <div class="demo-stats">
-                        <div class="demo-stat">
-                            <span class="demo-stat-label">访问节点</span>
-                            <span class="demo-stat-value" id="statVisited">0</span>
-                        </div>
-                        <div class="demo-stat">
-                            <span class="demo-stat-label">路径长度</span>
-                            <span class="demo-stat-value" id="statLength">0</span>
-                        </div>
-                        <div class="demo-stat">
-                            <span class="demo-stat-label">转向次数</span>
-                            <span class="demo-stat-value" id="statTurns">0</span>
-                        </div>
-                        <div class="demo-stat">
-                            <span class="demo-stat-label">耗时</span>
-                            <span class="demo-stat-value" id="statTime">0 ms</span>
-                        </div>
-                    </div>
-                    <div class="demo-controls">
-                        <div class="ctrl-group">
-                            <span class="ctrl-label">点击格子：</span>
-                            <button class="ctrl-btn active" data-mode="pick">选点</button>
-                            <button class="ctrl-btn" data-mode="wall">画墙</button>
-                            <button class="ctrl-btn" data-mode="erase">擦除</button>
-                        </div>
-                        <div class="ctrl-group">
-                            <button class="ctrl-btn primary" id="btnStart">▶ 开始寻路</button>
-                            <button class="ctrl-btn" id="btnRandom">🎲 随机障碍</button>
-                            <button class="ctrl-btn" id="btnReset">↻ 重置</button>
-                        </div>
-                    </div>
-                    <div class="demo-legend">
-                        <div class="legend-item"><span class="lg-cell start"></span>起点</div>
-                        <div class="legend-item"><span class="lg-cell end"></span>终点</div>
-                        <div class="legend-item"><span class="lg-cell wall"></span>障碍</div>
-                        <div class="legend-item"><span class="lg-cell visited"></span>已访问</div>
-                        <div class="legend-item"><span class="lg-cell path"></span>最终路径</div>
-                    </div>
-                </div>
-                <div class="demo-canvas-wrap">
-                    <div class="canvas-title">11 × 7 网格 · 最多 2 次转向</div>
-                    <canvas id="bfsCanvas" width="660" height="420"></canvas>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- 教育背景 -->
     <section class="section education" id="education">
         <div class="container">
             <div class="section-header">
-                <span class="section-num">05</span>
+                <span class="section-num">04</span>
                 <h2 class="section-title">教育背景</h2>
             </div>
             <div class="edu-card">
