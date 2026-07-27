@@ -61,7 +61,7 @@
             </div>
             <div class="hero-stats">
                 <div class="stat-card">
-                    <div class="stat-num" data-target="450">0</div>
+                    <div class="stat-num" data-target="500">0</div>
                     <div class="stat-label">LeetCode 刷题</div>
                 </div>
                 <div class="stat-card">
@@ -323,6 +323,68 @@
     </section>
 
 
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2026.04 — 2026.05</div>
+                    <div class="timeline-card project-card">
+                        <div class="project-header">
+                            <div>
+                                <h3>心灵树洞 · AI 心理咨询小程序</h3>
+                                <p class="project-sub">基于 Spring Boot + 微信小程序的 AI 情感陪伴对话系统</p>
+                            </div>
+                            <span class="project-role">后端开发 / 全栈</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot 3.5</span>
+                            <span class="tech-tag">MyBatis</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">微信小程序</span>
+                            <span class="tech-tag">智谱AI</span>
+                            <span class="tech-tag">OkHttp</span>
+                        </div>
+                        <p class="project-desc">
+                            设计并实现一个名为<strong>"心灵树洞"</strong>的 AI 心理咨询小程序。后端基于 Spring Boot 3.5 + MyBatis 构建 RESTful 接口，集成<strong>智谱大模型</strong>实现多轮对话；前端为微信小程序，提供类 IM 的聊天体验，强调<strong>对话隐私与情感陪伴</strong>。
+                        </p>
+                        <ul class="project-work">
+                            <li>
+                                <span class="work-num">01</span>
+                                <div>
+                                    <strong>后端架构设计</strong>
+                                    <p>基于 Spring Boot 3.5 + MyBatis 构建标准三层架构（Controller / Service / Mapper），使用 Lombok 简化实体类，封装 <code>Result&lt;T&gt;</code> 统一响应格式。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="work-num">02</span>
+                                <div>
+                                    <strong>智谱 AI 集成</strong>
+                                    <p>封装 <code>ZhipuUtil</code> 工具类，通过 OkHttp 调用智谱大模型 API；自动拼接系统提示词 + 历史对话 + 用户最新消息，实现<strong>有上下文的连续对话</strong>。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="work-num">03</span>
+                                <div>
+                                    <strong>数据库与会话管理</strong>
+                                    <p>设计 <code>ai_chat_record</code> 对话记录表，通过 <code>(user_id, session_id)</code> 复合索引 + <code>create_time</code> 索引保障历史回溯查询性能。</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="work-num">04</span>
+                                <div>
+                                    <strong>微信小程序前端</strong>
+                                    <p>独立完成小程序前端：自定义顶部栏、AI / 我的 / 日志 三 Tab 导航、聊天气泡流渲染、隐私提示条，紫色品牌主题贯穿全站。</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="action-btn" onclick="event.preventDefault(); alert('预览效果尚未准备');">
+                                <span>▶</span> 预览效果
+                            </a>
+                            <a href="#" class="action-btn" onclick="event.preventDefault(); alert('源代码仓库尚未公开');">
+                                <span>&lt;/&gt;</span> 查看源代码
+                            </a>
+                        </div>
+                    </div>
+                </div>
     <!-- 教育背景 -->
     <section class="section education" id="education">
         <div class="container">
